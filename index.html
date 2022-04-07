@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css">
+    <title>minima 1.0</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+            <div class="minima">
+                <h1>minima</h1>
+                <p id="version">VERSION 1.0</p>
+
+                    <button onClick="brown();" class="btn" id="btn3"></button>
+                    <button onClick="purple();" class="btn" id="btn2"></button>
+                    <button onClick="black();"class="btn" id="btn1"></button>
+
+                
+                <!-- <input type="Radio" name="text" id="black" onClick="black();">
+                <input type="Radio" name="text" id="purple" onClick="purple();">
+                <input type="Radio" name="text" id="brown" onClick="brown();"> -->
+
+                <textarea class="text-box" placeholder="Start with Something Nice..." id="text-box" oninput="countWord()"></textarea>
+            </div>
+
+            <div class="footer">
+                <div class="footer-labels">
+                    <!-- characters -->
+                    <span id="character"><span id="display-character">0</span> characters</span>
+                    <!-- words -->
+                    <span id="word"><span id="display-word">0</span> words</span>
+                    <!-- sentences -->
+                    <span id="sentence"><span id="display-sentence">0</span> sentences</span>
+                </div>
+            </div>
+    </div>
+
+
+    <script src="./jquery3.4.1.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
