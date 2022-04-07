@@ -62,7 +62,3 @@ function purple() {
 function brown() {
     document.getElementById("text-box").style.color="#D38282";
 }
-
-
-// save to local storage
-
